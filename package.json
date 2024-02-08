@@ -1,0 +1,30 @@
+{
+  "name": "dicegameutils",
+  "version": "1.0.2",
+  "description": "Utility functions for dicegames",
+  "main": "./lib/umd/index.js",
+  "module": "./lib/index.js",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc && webpack"
+  },
+  "keywords": [
+    "dice",
+    "games",
+    "utilities"
+  ],
+  "author": "Niklas P Andersson (https://niklaspandersson.se)",
+  "homepage": "https://github.com/niklaspandersson/dicegameutils#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niklaspandersson/dicegameutils"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,5 @@
+*.map
+tsconfig.json
+webpack.config.js
+src
+docs
